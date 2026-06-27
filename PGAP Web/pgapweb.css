@@ -1,0 +1,181 @@
+
+/* FAZ COM QUE A TRANSIÇÃO DA MAIN SEJA SUAVE */
+
+html {
+    scroll-behavior: smooth;   
+}
+
+/* FUNDO DO SITE*/
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(177, 212, 233);
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 110px;
+}
+
+/* ESTILIZAÇÃO DO MAIN OU TELA PRINCIPAL */
+
+main{
+    flex: 1;
+    background-color:  #f7fbff;
+}
+
+.conteudo-principal {
+    background: #f7fbff;
+    padding: 50px 70px 40px;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 45px;
+}
+
+.texto-sobre {
+    flex: 1;
+}
+
+.texto-sobre h1,
+.info-app h2 {
+    font-size: 48px;
+    color: #061f55;
+    margin-bottom: 8px;
+}
+
+.linha-titulo {
+    width: 70px;
+    height: 6px;
+    background: #5369e6;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.texto-sobre p,
+.texto-app p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #0b1d3a;
+}
+
+.imagem-sobre {
+    flex: 1.2;
+}
+
+.imagem-sobre img {
+    width: 100%;
+    max-width: 620px;
+}
+
+.app-pgap {
+    background: #eef7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 35px 55px;
+    border-radius: 0;
+}
+
+.info-app {
+    flex: 1.2;
+}
+
+.app-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.qr-code {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    background: white;
+    padding: 15px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.texto-app {
+    max-width: 520px;
+}
+
+.destaque-app {
+    background: #5369e6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 20px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.imagem-app {
+    flex: 1;
+    text-align: center;
+}
+
+.imagem-app img {
+    width: 100%;
+    max-width: 390px;
+}
+
+/* ESTILIZAÇÃO DO RODAPÉ */
+
+footer{
+    width: 100%;
+    height: 110px;
+
+    background-color: #e5e8fc;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.logo_ifrs{
+    height: 80px;
+    width: 250px;
+    padding-left: 30px;
+   
+    transition: 0.3s; /* Faz o aumento da logo ser suave e nao de soco */
+}
+
+.logo_ifrs:hover{
+transform: scale(1.1); 
+cursor: pointer; 
+}
+
+.link_ifrs{
+text-decoration: none; /* Tira um anderline que fica sobrando no link */
+}
+
+.logo_cc{
+    height: 80px;
+    width: 100px;
+    padding-left: 30px;
+   
+    transition: 0.3s; /* Faz o aumento da logo ser suave e nao de soco */
+}
+
+.logo_cc:hover{
+transform: scale(1.1); 
+cursor: pointer; 
+}
+
+.texto_footer{
+    padding-right: 30px;
+}
