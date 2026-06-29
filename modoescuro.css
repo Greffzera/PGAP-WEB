@@ -1,0 +1,125 @@
+ /* Tema Escuro HEADER*/
+
+body.tema-escuro{
+    background-color: #121826;
+    color: white;
+}
+
+body.tema-escuro header{
+    background-color: #1f2937;          
+}
+
+body.tema-escuro .drawer-config{
+    background-color: #1f2937;
+    color: white;
+}
+
+/* BOTAO ENSINO BASICO MODO ESCURO */
+
+body.tema-escuro .botao-anosini,
+body.tema-escuro .botao-ebasico{
+    color: rgb(255, 255, 255);
+    background-color: #121826;;
+}
+
+body.tema-escuro .opcoes-anosini,
+body.tema-escuro .opcoes-ebasico{
+    background-color: #1f2937;
+}
+
+body.tema-escuro .opcoes-anosini button,
+body.tema-escuro .opcoes-ebasico button{
+    background-color: #1f2937;
+    color: white;
+}
+
+body.tema-escuro .opcoes-anosini button:hover,
+body.tema-escuro .opcoes-ebasico button:hover{
+    background-color: #374151;
+}
+
+/* ESTILIZAÇÃO DA MAIN MODO ESCURO */
+
+body.tema-escuro .conteudo-principal{
+    background-color: #0b1d3a;
+}
+
+body.tema-escuro .texto-sobre h1,
+body.tema-escuro .info-app h2{
+    color:  white;
+}
+
+body.tema-escuro .linha-titulo{
+    background-color: darkblue;
+}
+
+body.tema-escuro .texto-sobre p,
+body.tema-escuro .texto-app p{
+    color: white;
+}
+
+body.tema-escuro .app-pgap{
+    background-color: #132643;
+}
+
+body.tema-escuro .destaque-app{
+    background-color: #374151;
+}
+
+/* TELA DE JOGOS - MODO ESCURO */
+
+body.tema-escuro main {
+    background-color: #0b1d3a;
+}
+
+body.tema-escuro .tela-jogos {
+    background-color: #0b1d3a;
+}
+
+body.tema-escuro .cabecalho-tela-jogos h1,
+body.tema-escuro .cabecalho-tela-jogos p {
+    color: white;
+}
+
+body.tema-escuro .card-jogo {
+    background-color: #1f2937;
+}
+
+body.tema-escuro .card-jogo h2 {
+    color: white;
+}
+
+/* Modo Escuro do molde de card pós click do usuario */
+
+body.tema-escuro .molde-card{
+
+    background:#1f2937;
+
+}
+
+body.tema-escuro .molde-card h2,
+
+body.tema-escuro .molde-card p,
+
+body.tema-escuro .fechar-molde{
+
+    color:white;
+
+}
+
+body.tema-escuro .botao-jogar{
+
+    background:#374151;
+
+}
+
+/* ESTILIZAÇÃO DO RODAPÉ TEMA ESCURO*/
+
+body.tema-escuro footer{
+    background-color: #1f2937;
+}
+
+body.tema-escuro .logo_cc,
+body.tema-escuro .logo_ifrs{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(6%) saturate(0%) hue-rotate(351deg) brightness(105%) contrast(100%);
+}
