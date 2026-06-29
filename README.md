@@ -25,4 +25,3 @@ Link do Site: https://greffzera.github.io/PGAP-WEB/
 
 <img width="500" height="200" alt="site3" src="https://github.com/user-attachments/assets/aded7d86-cd6b-4ec5-83d5-84fd8c92a31c" />
 
-Link do Site: https://greffzera.github.io/PGAP-WEB/
